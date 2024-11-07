@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     background-color: aqua;
     color: white;
     padding: 20px;
     text-align: center;
+    border: 2px solid black;
 }
 
 .content {
@@ -12,19 +19,33 @@
     border-radius: 5px;
 }
 
-.footer {
-    background-color: aqua;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 .nav {
     margin: 15px;
     padding: 20px;
     border: 2px solid black;
     border-radius: 100px;    
+}
+
+footer {
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    border: 2px solid black;
+    display: flex;
+}
+
+.div1 {
+    width: 33%;
+}
+
+.div2 {
+    width: 33%;
+}
+
+.div3 {
+    width: 33%;
 }
