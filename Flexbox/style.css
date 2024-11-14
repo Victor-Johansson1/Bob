@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(184, 184, 184);
+    width: 100vw;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    position: absolute;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    width: 15%;
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    height: 85vh;
+}
+
+section {
+   padding: 10px;
+}
