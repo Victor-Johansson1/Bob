@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 12vh;
+    width: 100%;
+    border: solid;
+}
+
+.knapp {
+    width: 32%;
+    padding: 10px;
+}
+
+.hemknapp {
+    padding: 10px;
+    background-color: deepskyblue;
+}
+
+.välkommen {
+    width: 68%;
+}
+
+.content {
+    display: flex;
+    width: 98,5vw;
+    flex-direction: column;
+}
+
+.grävmaskin-ett, .grävmaskin-två, .grävmaskin-tre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: solid;
+    background-color: antiquewhite;
+}
+
+.kort-text-ett, .kort-text-två, .kort-text-tre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+.infotext-grävmaskin-ett, .infotext-grävmaskin-två, .infotext-grävmaskin-tre {
+    border: solid;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.knapp-grävmaskin-ett, .knapp-grävmaskin-två, .knapp-grävmaskin-tre {
+    padding: 10px;
+    background-color: deepskyblue;
+}
+
+footer {
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    border: solid;
+    display: flex;
+}
+
+.div1 {
+    width: 33%;
+}
+
+.div2 {
+    width: 33%;
+}
+
+.div3 {
+    width: 33%;
+}

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 12vh;
+    width: 100%;
+    border: solid;
+}
+
+.knapp {
+    width: 32%;
+    padding: 10px;
+}
+
+.hemknapp {
+    padding: 10px;
+    background-color: deepskyblue;
+}
+
+.välkommen {
+    width: 68%;
+}
+
+.content {
+    display: flex;
+    background-image: url(Bild/Grävmaskin.jpg);
+    background-size: 1300px;
+    width: 98,5vw;
+    height: 110vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hemknapp {
+    padding: 10px;
+    background-color: deepskyblue;
+}
+  
+.text {
+    width: 50vw;
+    border: solid;
+    background-color: aqua;
+    text-align: center;
+}
+  
+.ett, .två, .tre, .fyra, .fem {
+    padding: 10px;
+}
+
+footer {
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    border: solid;
+    display: flex;
+}
+
+.div1 {
+    width: 33%;
+}
+
+.div2 {
+    width: 33%;
+}
+
+.div3 {
+    width: 33%;
+}

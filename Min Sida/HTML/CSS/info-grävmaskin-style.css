@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 12vh;
+    width: 100%;
+    border: solid;
+}
+
+.knapp {
+    width: 32%;
+    padding: 10px;
+}
+
+.tillbakaknapp {
+    padding: 10px;
+    background-color: deepskyblue;
+}
+
+.välkommen {
+    width: 68%;
+}
+
+.info-header {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 69vh;
+    background-color: antiquewhite;
+}
+
+.ett, .två, .tre, .fyra, .fem, .sex {
+    padding: 10px;
+}
+
+.text {
+    width: 50vw;
+    border: solid;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+
+.boka-nu-knapp {
+    padding: 10px;
+    background-color: deepskyblue;
+}
+
+footer {
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    border: solid;
+    display: flex;
+}
+
+.div1 {
+    width: 33%;
+}
+
+.div2 {
+    width: 33%;
+}
+
+.div3 {
+    width: 33%;
+}
