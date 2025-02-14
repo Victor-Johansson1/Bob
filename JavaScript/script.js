@@ -228,4 +228,47 @@ function fruit(fruit) {
     }
 }
 
+let arr1 = [1, 2, 3, 4, 5]
+
+let arr2 = ['Bil', 'Cykel', 'Båt', 'Flygplan', 'Tåg']
+
+/*
+for (let i = 0; i < arr2.length; i++) {
+    console.log(arr2[i])
+}
+
+let arr3 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+arr3.forEach(arr3 => {
+    console.log(arr3)
+});
+
+let arr4 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+let sum = 0
+
+arr4.forEach(arr4 => {
+    sum += arr4
+});
+console.log(sum)
+
+let arr5 = ['Andreas', 'Bob', 'Victor', 'Robin', 'Jacob']
+
+for (let i = 0; i < arr5.length; i++) {
+    console.log(arr5[i])
+}
+
+let bil = {
+    färg: 'Blå',
+    modell: 'Volvo 945',
+    år: 1998
+}
+
+
+bil.modell = 'Volvo 744'
+bil.pris = 25000
+
+console.log(bil)
+*/
+
 document.getElementById('externalButton').addEventListener('click', showExternalMessage);
