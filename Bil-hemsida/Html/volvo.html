@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volvo</title>
+    <link rel="icon" href="CSS/Bild/BilLogo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/volvo.css" defer>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" defer>
+    <script>
+      function mobilMenyToggle() {
+        const meny = document.getElementById("mobilMeny");
+        if (meny.style.width === "100%") {
+          meny.style.width = "0";
+        } else {
+          meny.style.width = "100%";
+        }
+      }
+    </script>
+</head>
+<body>
+<nav class="navbar">
+    <div class="hamburgare" onclick="mobilMenyToggle()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="meny">
+        <a href="start.html">Hem</a>
+        <div class="dropdown">
+            <button class="dropbtn">Bilmärken 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="volvo.html">Volvo</a>
+                <a href="bmw.html">BMW</a>
+                <a href="koenigsegg.html">Koenigsegg</a>
+            </div>
+        </div>
+        <a href="service.html">Service</a>
+        <a href="om-oss.html">Om oss</a> 
+    </div>
+    <div id="mobilMeny" class="mobilMeny">
+        <a  class="close-button" onclick="mobilMenyToggle()">&times;</a>
+        <a href="start.html">Hem</a>
+        <div class="dropdown">
+            <button class="dropbtn">Bilmärken <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="volvo.html">Volvo</a>
+                <a href="bmw.html">BMW</a>
+                <a href="koenigsegg.html">Koenigsegg</a>
+            </div>
+        </div>
+        <a href="service.html">Service</a>
+        <a href="om-oss.html">Om oss</a>
+    </div>
+</nav>
+<div class="container">
+    <a href="start.html">
+        <div class="car1">
+            <img src="CSS/Bild/XC90.webp" alt="Volvo XC90">
+            <h2>Volvo XC90</h2>
+            <p>En lyxig SUV med plats för hela familjen.</p>
+        </div>
+    </a>
+    <a href="start.html">
+        <div class="car2">
+            <img src="CSS/Bild/VolvoS60.webp" alt="Volvo S60">
+            <h2>Volvo S60</h2>
+            <p>En sportig sedan med elegant design och kraftfull prestanda.</p>
+        </div>
+    </a>
+    <a href="start.html">
+        <div class="car3">
+            <img src="CSS/Bild/VolvoV60.webp" alt="Volvo V60">
+            <h2>Volvo V60</h2>
+            <p>En kombi med smarta lösningar och hög komfort.</p>
+        </div>
+    </a>
+    <a href="start.html">
+        <div class="car4">
+            <img src="CSS/Bild/XC40.webp" alt="Volvo XC40">
+            <h2>Volvo XC40</h2>
+            <p>En kompakt SUV med smarta funktioner och modern design.</p>
+        </div>
+    </a>
+    <a href="start.html">
+        <div class="car5">
+            <img src="CSS/Bild/VolvoS90.webp" alt="Volvo S90">
+            <h2>Volvo S90</h2>
+            <p>En lyxig sedan med avancerad teknik och hög komfort.</p>
+        </div>
+    </a>
+    <a href="start.html">
+        <div class="car6">
+            <img src="CSS/Bild/VolvoV90.webp" alt="Volvo V90">
+            <h2>Volvo V90</h2>
+            <p>En stor kombi med hög kvalitet och smarta lösningar.</p>
+        </div>
+    </a>
+    <a href="start.html">
+        <div class="car7">
+            <img src="CSS/Bild/XC60.webp" alt="Volvo XC60">
+            <h2>Volvo XC60</h2>
+            <p>En medelstor SUV med sportig design och hög säkerhet.</p>
+        </div>
+    </a>
+    <a href="start.html">
+        <div class="car8">
+            <img src="CSS/Bild/VolvoC40.webp" alt="Volvo C40">
+            <h2>Volvo C40</h2>
+            <p>En elektrisk crossover med modern design och hållbarhet i fokus.</p>
+        </div>
+    </a>
+    <a href="start.html">
+        <div class="car9">
+            <img src="CSS/Bild/VolvoV40.webp" alt="Volvo V40">
+            <h2>Volvo V40</h2>
+            <p>En kompakt bil med sportig känsla och hög säkerhet.</p>
+        </div>
+    </a>
+</div>
+<footer>
+  <div class="div1">
+      <img src="CSS/Bild/BilLogo.webp" alt="Företagslogga">
+  </div>
+  <div class="div2">
+      <a class="button" href="privatleasing.html">Privatleasing</a>
+      <a class="button" href="provkörning.html">Provkörning</a>
+      <a class="button" href="kontakta-oss.html">Kontakta oss</a>
+  </div>
+  <div class="div3">
+      <h3>Följ oss</h3> 
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+</footer>
+</body>
+</html>

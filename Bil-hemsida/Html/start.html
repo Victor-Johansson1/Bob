@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hem</title>
+<link rel="icon" href="CSS/Bild/BilLogo.webp" type="image/x-icon">
+<link rel="stylesheet" href="css/start.css" defer>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" defer>
+<script>
+  function mobilMenyToggle() {
+    const meny = document.getElementById("mobilMeny");
+    if (meny.style.width === "100%") {
+        meny.style.width = "0";
+    } else {
+        meny.style.width = "100%";
+    }
+  }
+</script>
+</head>
+<body>
+  <nav class="navbar">
+  <div class="hamburgare" onclick="mobilMenyToggle()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="meny">
+  <a href="start.html">Hem</a>
+  <div class="dropdown">
+    <button class="dropbtn">Bilmärken 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="volvo.html">Volvo</a>
+      <a href="bmw.html">BMW</a>
+      <a href="koenigsegg.html">Koenigsegg</a>
+    </div>
+  </div>
+  <a href="service.html">Service</a>
+  <a href="om-oss.html">Om oss</a> 
+  </div>
+  <div id="mobilMeny" class="mobilMeny">
+    <a  class="close-button" onclick="mobilMenyToggle()">&times;</a>
+    <a href="start.html">Hem</a>
+    <div class="dropdown">
+    <button class="dropbtn">Bilmärken <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+        <a href="volvo.html">Volvo</a>
+        <a href="bmw.html">BMW</a>
+        <a href="koenigsegg.html">Koenigsegg</a>
+    </div>
+  </div>
+  <a href="service.html">Service</a>
+  <a href="om-oss.html">Om oss</a>
+  </div>
+</nav>
+<div class="container">
+  <div class="Volvo">
+    <div class="VolvoLogo">
+        <form action="volvo.html">
+          <input type="image" src="CSS/Bild/Volvo.webp" alt="Submit" width="100%">
+        </form>
+    </div>
+    <div class="VolvoText">
+      <h2>Volvo</h2>
+      <p>Volvo Cars is a Swedish luxury vehicle manufacturer headquartered in Gothenburg, Sweden. It is owned by the Chinese automotive company Geely.</p>
+    </div>
+  </div>
+  <div class="blankSpace"></div>
+  <div class="BMW">
+    <div class="BMWLogo">
+      <form action="bmw.html">
+        <input type="image" src="CSS/Bild/BMW.webp" alt="Submit" width="100%">
+      </form>
+    </div>
+    <div class="BMWText">
+      <h2>BMW</h2>
+      <p>BMW is a German multinational company which produces luxury vehicles and motorcycles. The company was founded in 1916 and is headquartered in Munich, Germany.</p>
+    </div>
+  </div>
+  <div class="blankSpace"></div>
+  <div class="Koenigsegg">
+    <div class="KoenigseggLogo">
+      <form action="koenigsegg.html">
+        <input type="image" src="CSS/Bild/Koenigsegg.webp" alt="Submit" width="100%">
+      </form>
+    </div>
+    <div class="KoenigseggText">
+      <h2>Koenigsegg</h2>
+      <p>Koenigsegg Automotive AB is a Swedish manufacturer of high-performance sports cars. The company was founded in 1994 by Christian von Koenigsegg.</p>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="div1">
+      <img src="CSS/Bild/BilLogo.webp" alt="Företagslogga">
+  </div>
+  <div class="div2">
+      <a class="button" href="privatleasing.html">Privatleasing</a>
+      <a class="button" href="provkörning.html">Provkörning</a>
+      <a class="button" href="kontakta-oss.html">Kontakta oss</a>
+  </div>
+  <div class="div3">
+      <h3>Följ oss</h3> 
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+</footer>
+</body>
+</html>

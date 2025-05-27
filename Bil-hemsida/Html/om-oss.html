@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om oss</title>
+    <link rel="icon" href="CSS/Bild/BilLogo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/om-oss.css" defer>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" defer>
+    <script>
+      function mobilMenyToggle() {
+        const meny = document.getElementById("mobilMeny");
+        if (meny.style.width === "100%") {
+          meny.style.width = "0";
+        } else {
+          meny.style.width = "100%";
+        }
+      }
+    </script>
+</head>
+<body>
+<nav class="navbar">
+    <div class="hamburgare" onclick="mobilMenyToggle()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="meny">
+        <a href="start.html">Hem</a>
+        <div class="dropdown">
+            <button class="dropbtn">Bilmärken 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="volvo.html">Volvo</a>
+                <a href="bmw.html">BMW</a>
+                <a href="koenigsegg.html">Koenigsegg</a>
+            </div>
+        </div>
+        <a href="service.html">Service</a>
+        <a href="om-oss.html">Om oss</a> 
+    </div>
+    <div id="mobilMeny" class="mobilMeny">
+        <a  class="close-button" onclick="mobilMenyToggle()">&times;</a>
+        <a href="start.html">Hem</a>
+        <div class="dropdown">
+            <button class="dropbtn">Bilmärken <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="volvo.html">Volvo</a>
+                <a href="bmw.html">BMW</a>
+                <a href="koenigsegg.html">Koenigsegg</a>
+            </div>
+        </div>
+        <a href="service.html">Service</a>
+        <a href="om-oss.html">Om oss</a>
+    </div>
+</nav>
+<div class="container">
+    <h2>Om Goo Motors</h2>
+    <p>GoGo Motors är din pålitliga partner när det kommer till köp och försäljning av kvalitetsbilar. Med ett brett utbud av noggrant utvalda fordon – från smidiga stadsbilar till kraftfulla SUV:ar – ser vi till att du hittar bilen som passar just dina behov och din livsstil. Vår målsättning är enkel: att göra bilköp tryggt, smidigt och inspirerande. Vi tror på att kombinera modern teknik med personligt bemötande. Därför är vår webbplats utformad för att ge dig en sömlös upplevelse, där du enkelt kan söka, jämföra och boka provkörningar direkt online.</p>
+    <h2>Våra anställda</h2>
+    <p>Bakom GoGo Motors står ett engagerat team med passion för bilar och kundservice i världsklass. Våra medarbetare har många års erfarenhet inom bilbranschen och är experter på att matcha rätt bil med rätt kund. Oavsett om du är ute efter din första bil, en familjebil eller en lyxig sportbil, står vårt team redo att guida dig genom hela processen – med ärlighet, kunskap och ett leende. Vi är stolta över vår kundfokus och arbetar varje dag för att skapa långsiktiga relationer med våra kunder.</p>
+    <h2>Våra bilar</h2>
+    <p>På GoGo Motors erbjuder vi endast bilar vi själva skulle köra. Alla fordon genomgår noggranna kvalitetskontroller och kommer med fullständig servicehistorik. Vi samarbetar med både välkända bilmärken och noggrant utvalda återförsäljare för att garantera ett urval som kombinerar kvalitet, prestanda och prisvärdhet.</p>
+    <h2>Hos oss hittar du:</h2>
+    <ul>
+        <li>Nya och begagnade bilar i toppskick</li>
+        <li>Elbilar, hybridmodeller och bensin-/dieselbilar</li>
+        <li>Flexibla finansieringslösningar och garantier</li>
+    </ul>
+</div>
+<footer>
+  <div class="div1">
+      <img src="CSS/Bild/BilLogo.webp" alt="Företagslogga">
+  </div>
+  <div class="div2">
+      <a class="button" href="privatleasing.html">Privatleasing</a>
+      <a class="button" href="provkörning.html">Provkörning</a>
+      <a class="button" href="kontakta-oss.html">Kontakta oss</a>
+  </div>
+  <div class="div3">
+      <h3>Följ oss</h3> 
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+</footer>
+</body>
+</html>
