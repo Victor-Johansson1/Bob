@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koenigsegg</title>
-    <link rel="icon" href="CSS/Bild/BilLogo.webp" type="image/x-icon">
-    <link rel="stylesheet" href="css/koenigsegg.css" defer>
+    <title>Service</title>
+    <link rel="icon" href="img/BilLogo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/service.css" defer>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" defer>
-    <script>
+    <script defer>
       function mobilMenyToggle() {
         const meny = document.getElementById("mobilMeny");
         if (meny.style.width === "100%") {
@@ -15,6 +15,10 @@
         } else {
           meny.style.width = "100%";
         }
+      }
+
+      function confirmReset() {
+        return confirm('Är du säker på att du vill rensa alla fält?');
       }
     </script>
 </head>
@@ -56,9 +60,24 @@
     </div>
 </nav>
 <div class="container">
+    <h1>Boka din service här</h1>
+    <br>
+    <h2>Fyll i dina uppgifter</h2>
+    <br>
+    <form class="form">
+        <input type="text" id="regnr" name="regnr" placeholder="ABC123" required>
+        <input type="text" id="namn" name="namn" placeholder="Ditt namn" required>
+        <input type="email" id="email" name="email" placeholder="Din e-post" required>
+        <input type="tel" id="telefon" name="telefon" placeholder="Ditt telefonnummer" required>
+        <input type="date" id="datum" name="datum" required>
+        <input type="time" id="tid" name="tid" required>
+        <input type="submit" value="Boka tid" id="bokaTid">
+        <input type="reset" value="Rensa" onclick="return confirmReset()" id="rensa">
+    </form>
+</div>
 <footer>
   <div class="div1">
-      <img src="CSS/Bild/BilLogo.webp" alt="Företagslogga">
+      <img src="img/BilLogo.webp" alt="Företagslogga">
   </div>
   <div class="div2">
       <a class="button" href="privatleasing.html">Privatleasing</a>
