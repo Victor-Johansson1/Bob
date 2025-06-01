@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo</title>
     <link rel="icon" href="img/BilLogo.webp" type="image/x-icon">
-    <link rel="stylesheet" href="css/volvo.css" defer>
+    <link rel="stylesheet" href="css/buycar.css" defer>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" defer>
     <script>
       function mobilMenyToggle() {
@@ -15,6 +15,10 @@
         } else {
           meny.style.width = "100%";
         }
+      }
+
+      function buyButtonclick() {
+        alert("Tack för ditt köp! Vi kommer att kontakta dig inom kort.");
       }
     </script>
 </head>
@@ -56,69 +60,31 @@
     </div>
 </nav>
 <div class="container">
-    <a href="xc90.html">
-        <div class="car1">
-            <img src="img/XC90.webp" alt="Volvo XC90">
-            <h2>Volvo XC90</h2>
-            <p>En lyxig SUV med plats för hela familjen.</p>
-        </div>
-    </a>
-    <a href="s60.html">
-        <div class="car2">
-            <img src="img/S60.webp" alt="Volvo S60">
-            <h2>Volvo S60</h2>
-            <p>En sportig sedan med elegant design och kraftfull prestanda.</p>
-        </div>
-    </a>
-    <a href="v60.html">
-        <div class="car3">
-            <img src="img/V60.webp" alt="Volvo V60">
-            <h2>Volvo V60</h2>
-            <p>En kombi med smarta lösningar och hög komfort.</p>
-        </div>
-    </a>
-    <a href="xc40.html">
-        <div class="car4">
-            <img src="img/XC40.webp" alt="Volvo XC40">
-            <h2>Volvo XC40</h2>
-            <p>En kompakt SUV med smarta funktioner och modern design.</p>
-        </div>
-    </a>
-    <a href="s90.html">
-        <div class="car5">
-            <img src="img/S90.webp" alt="Volvo S90">
-            <h2>Volvo S90</h2>
-            <p>En lyxig sedan med avancerad teknik och hög komfort.</p>
-        </div>
-    </a>
-    <a href="v90.html">
-        <div class="car6">
-            <img src="img/V90.webp" alt="Volvo V90">
-            <h2>Volvo V90</h2>
-            <p>En stor kombi med hög kvalitet och smarta lösningar.</p>
-        </div>
-    </a>
-    <a href="xc60.html">
-        <div class="car7">
-            <img src="img/XC60.webp" alt="Volvo XC60">
-            <h2>Volvo XC60</h2>
-            <p>En medelstor SUV med sportig design och hög säkerhet.</p>
-        </div>
-    </a>
-    <a href="c40.html">
-        <div class="car8">
-            <img src="img/C40.webp" alt="Volvo C40">
-            <h2>Volvo C40</h2>
-            <p>En elektrisk crossover med modern design och hållbarhet i fokus.</p>
-        </div>
-    </a>
-    <a href="v40.html">
-        <div class="car9">
-            <img src="img/V40.webp" alt="Volvo V40">
-            <h2>Volvo V40</h2>
-            <p>En kompakt bil med sportig känsla och hög säkerhet.</p>
-        </div>
-    </a>
+    <img src="img/C40.webp" alt="C40" class="car-image">
+    <div class="car-details">
+        <h1>Volvo C40</h1>
+        <p class="description">Volvo C40 är en helelektrisk SUV-coupé som kombinerar modern design med hållbarhet och avancerad teknik. Med sin sportiga siluett, kraftfulla eldrift och smarta funktioner är den perfekt för dig som vill köra miljövänligt utan att kompromissa med komfort eller prestanda.</p>
+        <h3>Specifikationer:</h3>
+        <ul style="list-style-type: none;">
+            <li>Drivlina: Dubbelmotor, fyrhjulsdrift (AWD)</li>
+            <li>Effekt: 408 hk</li>
+            <li>Batterikapacitet: 78 kWh</li>
+            <li>Räckvidd: Upp till 444 km (WLTP)</li>
+            <li>Laddning: Snabbladdning upp till 150 kW (10–80% på ca 28 min)</li>
+            <li>Acceleration: 0–100 km/h på 4,7 sekunder</li>
+            <li>CO2-utsläpp: 0 g/km (elektrisk)</li>
+            <li>Bagageutrymme: 413 liter</li>
+            <li>Säkerhetsfunktioner: Pilot Assist, City Safety, 360° kamera, BLIS</li>
+            <li>Infotainment: Google inbyggt, 9-tums pekskärm, Apple CarPlay</li>
+            <li>Färg: Fjord Blue Metallic</li>
+            <li>Interiör: Vegansk klädsel, eljusterbara framsäten</li>
+            <li>Hjul: 20-tums lättmetallfälgar</li>
+            <li>Garantier: 3 års/100,000 km nybilsgaranti, 8 års/160,000 km batterigaranti</li>
+            <li>Tillval: Panoramaglastak, Harman Kardon ljudsystem, Dragkrok</li>
+        </ul>
+        <h2>Pris: 669,000 SEK</h2>
+        <button class="buy-button" onclick="buyButtonclick()">Köp nu</button>
+    </div>
 </div>
 <footer>
   <div class="div1">

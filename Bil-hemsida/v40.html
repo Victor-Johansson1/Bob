@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo</title>
     <link rel="icon" href="img/BilLogo.webp" type="image/x-icon">
-    <link rel="stylesheet" href="css/volvo.css" defer>
+    <link rel="stylesheet" href="css/buycar.css" defer>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" defer>
     <script>
       function mobilMenyToggle() {
@@ -15,6 +15,10 @@
         } else {
           meny.style.width = "100%";
         }
+      }
+
+      function buyButtonclick() {
+        alert("Tack för ditt köp! Vi kommer att kontakta dig inom kort.");
       }
     </script>
 </head>
@@ -56,69 +60,30 @@
     </div>
 </nav>
 <div class="container">
-    <a href="xc90.html">
-        <div class="car1">
-            <img src="img/XC90.webp" alt="Volvo XC90">
-            <h2>Volvo XC90</h2>
-            <p>En lyxig SUV med plats för hela familjen.</p>
-        </div>
-    </a>
-    <a href="s60.html">
-        <div class="car2">
-            <img src="img/S60.webp" alt="Volvo S60">
-            <h2>Volvo S60</h2>
-            <p>En sportig sedan med elegant design och kraftfull prestanda.</p>
-        </div>
-    </a>
-    <a href="v60.html">
-        <div class="car3">
-            <img src="img/V60.webp" alt="Volvo V60">
-            <h2>Volvo V60</h2>
-            <p>En kombi med smarta lösningar och hög komfort.</p>
-        </div>
-    </a>
-    <a href="xc40.html">
-        <div class="car4">
-            <img src="img/XC40.webp" alt="Volvo XC40">
-            <h2>Volvo XC40</h2>
-            <p>En kompakt SUV med smarta funktioner och modern design.</p>
-        </div>
-    </a>
-    <a href="s90.html">
-        <div class="car5">
-            <img src="img/S90.webp" alt="Volvo S90">
-            <h2>Volvo S90</h2>
-            <p>En lyxig sedan med avancerad teknik och hög komfort.</p>
-        </div>
-    </a>
-    <a href="v90.html">
-        <div class="car6">
-            <img src="img/V90.webp" alt="Volvo V90">
-            <h2>Volvo V90</h2>
-            <p>En stor kombi med hög kvalitet och smarta lösningar.</p>
-        </div>
-    </a>
-    <a href="xc60.html">
-        <div class="car7">
-            <img src="img/XC60.webp" alt="Volvo XC60">
-            <h2>Volvo XC60</h2>
-            <p>En medelstor SUV med sportig design och hög säkerhet.</p>
-        </div>
-    </a>
-    <a href="c40.html">
-        <div class="car8">
-            <img src="img/C40.webp" alt="Volvo C40">
-            <h2>Volvo C40</h2>
-            <p>En elektrisk crossover med modern design och hållbarhet i fokus.</p>
-        </div>
-    </a>
-    <a href="v40.html">
-        <div class="car9">
-            <img src="img/V40.webp" alt="Volvo V40">
-            <h2>Volvo V40</h2>
-            <p>En kompakt bil med sportig känsla och hög säkerhet.</p>
-        </div>
-    </a>
+    <img src="img/V40.webp" alt="V40" class="car-image">
+    <div class="car-details">
+        <h1>Volvo V40</h1>
+        <p class="description">Volvo V40 är en kompakt och elegant halvkombi som kombinerar stil, säkerhet och körglädje. Perfekt för både stadskörning och längre resor, med avancerade säkerhetsfunktioner och modern komfort.</p>
+        <h3>Specifikationer:</h3>
+        <ul style="list-style-type: none;">
+            <li>Motor: 1.5L eller 2.0L 4-cylindrig bensin eller diesel</li>
+            <li>Effekt: 122–190 hk</li>
+            <li>Växellåda: 6-växlad manuell eller 6/8-växlad automatisk</li>
+            <li>Drivning: Framhjulsdrift</li>
+            <li>Bränsleförbrukning: 4.0–6.2 L/100 km</li>
+            <li>CO2-utsläpp: 104–144 g/km</li>
+            <li>Bagageutrymme: 324 liter (med baksätena uppfällda)</li>
+            <li>Säkerhetsfunktioner: City Safety, Lane Keeping Aid, Driver Alert Control</li>
+            <li>Infotainment: Sensus Connect med 7-tums pekskärm, Bluetooth, USB</li>
+            <li>Färg: Onyx Black Metallic</li>
+            <li>Interiör: Textil eller läderklädsel, eljusterbar förarstol</li>
+            <li>Hjul: 17-tums lättmetallfälgar</li>
+            <li>Garantier: 3 års/100,000 km nybilsgaranti</li>
+            <li>Tillval: Panoramaglastak, parkeringssensorer, backkamera</li>
+        </ul>
+        <h2>Pris: 249,000 SEK</h2>
+        <button class="buy-button" onclick="buyButtonclick()">Köp nu</button>
+    </div>
 </div>
 <footer>
   <div class="div1">
